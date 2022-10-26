@@ -1,6 +1,14 @@
 # MC-GT
 MC-707 and MC-101 (how-to and projects) for Guitar.
 
+707 uses BMC, same as AIRD GT-1000 and GX-100, versus COSM GT-1, GT-100 ESC2, 
+per FB group.
+707 has JC-120, Fender Twin Reverb, Plexi (MS1959), Mesa Boogie (M/B), Peavey 
+EVH (5150), and Matchless DC-30.
+GT/GX has Fender Deluxe Reverb, Vox AC-30, Orange Rockerverb.
+707 lacks variety of pedals, such as no subtypes for Overdrive, Distortion, 
+Fuzz. Also lacks spring reverb and some more guitar centric effects.
+
 
 ## Wiring
 There are a few ways to connect things up.
@@ -21,8 +29,8 @@ Use volume on device to avoid levels with distortion.
 
 
 ### Stereo Headphone Amp, MFX with Line Out, or Pedal Output
-707 support Stereo input, if you need it to be mono, look up a Rane Why not Wye 
-Stereo to Mono summer and follow Mono.
+707 support Stereo input, if you need it to be mono to maximize input devices, 
+look up a Rane Why not Wye Stereo to Mono summer and follow Mono instructions.
 If you put a stereo (TRS) into EXT IN L, then you drop the Right (Ring) signal.
 Stereo is same as mono, except:
 * Use a TRS to 2 x TS adapter
@@ -110,6 +118,8 @@ Use guidance from GT models.
 Chain the tracks, with only the final track's output in MIX OUT.
 Final track's slider controls the volume for output (input through effects chain).
 Final track's knobs control send to master delay and reverb.
+Use master delay and reverb settings to save 2 tracks.
+That's up to 10 chained effects (verified per FB group).
 
 This documentation leaves Track 1 and 8 free.
 Track 1 could be a Tone (Aux backing track, external EP, external MIDI keyboard 
@@ -153,3 +163,16 @@ candidate for a Looper.
 	* Use Audio Insert for EXT IN to bind to a track
 * Sh+Tempo
 	* Turn large encoder to match BPM to what you are playing
+
+
+## Playing
+Create scenes of clips for presets.
+Example: Hendrix is tremolo chorus into phaser 1 and plexi.
+Press play for Scatter to work. TODO interesting scatters.
+
+### Groups/Themes of FX per Track
+Filter, Dirt, Preamp (without speakers/cab sim), Modulation, Output 
+(lofi/phono/tele, speakers/cab sim).
+
+### Mapping of Clips to FX
+TODO.
