@@ -1,13 +1,16 @@
 # MC-GT
 MC-707 and MC-101 (how-to and projects) for Guitar.
 
-707 uses BMC, same as AIRD GT-1000 and GX-100, versus COSM GT-1, GT-100 ESC2, 
-per FB group.
-707 has JC-120, Fender Twin Reverb, Plexi (MS1959), Mesa Boogie (M/B), Peavey 
-EVH (5150), and Matchless DC-30.
-GT/GX has Fender Deluxe Reverb, Vox AC-30, Orange Rockerverb.
+707 uses BMC, same as AIRD GT-1000 and GX-100, versus COSM in the GT-1, GT-100 
+ESC2 chip, per FB group.
+707 has JC-120, Clean Twin (Fender Twin Reverb), MS1959 I/II (Marshall 1959 
+Plexi), BG Lead (MESA/Boogie), Metal 5150 (Peavey EVH5150), Match Drive 
+(Matchless D/C-30), Sldn Lead (Soldano SLO-100).
+GT/GX additionally has (what appears to be) Katana models, Fender Deluxe Reverb, 
+Tweed (Fender Bassman), Diamond (Vox AC-30), Orange Rockerverb, Bgnr Ub (Bogner 
+Uberschall high gain).
 707 lacks variety of pedals, such as no subtypes for Overdrive, Distortion, 
-Fuzz. Also lacks spring reverb and some more guitar centric effects.
+Fuzz. Also lacks harmonist, spring reverb, and some more guitar centric effects.
 
 
 ## Wiring
@@ -16,7 +19,7 @@ You probably just want to do Raw/Direct from Guitar.
 
 
 ### Raw/Direct from Guitar
-Plug into EXT IN L/MONO and set switch to LINE.
+Plug Guitar into EXT IN L/MONO and set switch to LINE.
 * Sh+Input
 	* EXT IN Mono
 	* Turn large encoder down, set EXT IN VOLUME 0
@@ -29,8 +32,8 @@ Use volume on device to avoid levels with distortion.
 
 
 ### Stereo Headphone Amp, MFX with Line Out, or Pedal Output
-707 support Stereo input, if you need it to be mono to maximize input devices, 
-look up a Rane Why not Wye Stereo to Mono summer and follow Mono instructions.
+707 supports stereo input, if you need it to be mono to maximize input devices, 
+look up a Rane 'Why not Wye' stereo to mono summer and follow Mono instructions.
 If you put a stereo (TRS) into EXT IN L, then you drop the Right (Ring) signal.
 Stereo is same as mono, except:
 * Use a TRS to 2 x TS adapter
@@ -42,7 +45,7 @@ Stereo is same as mono, except:
 
 ### DI Box
 Same as any microphone.
-Plug into EXT IN L/MONO and set switch to MIC.
+Plug XLR into TRS adapter into EXT IN L/MONO and set switch to MIC.
 * Sh+Input
 	* Mic Sense 7
 	* EXT IN Mono
@@ -51,19 +54,20 @@ Plug into EXT IN L/MONO and set switch to MIC.
 
 
 ### Using Return instead of EXT
-You will loose the ability to use send-return loop (no 4 CM), but using EXT and 
-Return gives you 4 channels of input, so you could put a microphone on EXT L, an 
-EP on RET R, and the guitar on RET L.
+You will loose the ability to use send-return loop (so neither external pedal 
+chain nor 4/7 cable method), but using EXT and Return gives you 4 channels of 
+input. For instance, you could put a microphone on EXT L, an EP on RET R, and 
+the guitar on RET L.
 
 Send-return POS is separate from Audio Insert.
-Returned audio is not sent through clip's MFX, but does do filter, pan.
+Returned audio is not sent through clip's MFX, but will go through filter, pan.
 TODO verify if return requires line-in. It can not handle microphone. Unknown if 
 707 return is designed for high-z input (Guitar). Assume RET must be line-in.
 
 For mono:
-* Plug into RET L/MONO
+* Plug Guitar into RET L/MONO
 * Sh+Input
-	* >>> RETURN Stereo, Level 255, POS Off
+	* RETURN Stereo, Level 255, POS Off
 	* REC SRC 7 or whichever you'll want to loop, like the final output track
 
 For stereo:
@@ -71,48 +75,21 @@ For stereo:
 	* Left (Tip) into RET L
 	* Right (Ring) into RET R
 * Sh+Input
-	* >>> RETURN Stereo, Level 255, POS Off
+	* RETURN Stereo, Level 255, POS Off
 	* REC SRC 7 or whichever you'll want to loop, like the final output track
 
 
 ### Using a Physical Amp or External Pedals
+Determine which track you want to use for the external pedal chain and use 
+Sh+Input send-return position.
+
+According to the internet, you should be able to use a physical amp (preamp 
+and/or poweramp) with the 707 using what is called the 4 cable method for mono 
+and 7 cable method for stereo.
+I'm not a sound engineer and haven't worked on amps or played electric guitar 
+anywhere near long enough to warrant you listening to me here. Don't be dumb. 
 TODO TEST.
-
-See the GT-1000, GT-1000Core, or GX-100 manual for examples.
-It should be possible to use the send-return loop to do a 4 CM (Cable Method).
-Since send-return are both stereo, the 7 CM is also possible.
-You can use this to send-return through a physical/external pedal chain,
-or a physical amp.
-
-This would allow you to use a physical preamp instead of a GtAmpSim.
-Basically, use your amp's FX Loop (sometimes labelled Preamp Out and Power In).
-
-* Guitar into 707 EXT L.
-* Sh+Input Send/Return set to track with preamps.
-* 707 Send to Amp guitar input.
-* Amp FX Loop Send to 707 Return.
-
-With speaker modeling off, the 707 could be both before and after the preamp,
-but before the power amp, allowing you to use your physical cab.
-For this, connect 707 line out to Amp FX Loop Return.
-
-Danger, read up on 4CM. Big thing is if you have a tube power amp section it 
-needs a load, don't bypass it.
-If you have a solid state power amp section, it should be fine without a load.
-But if you are following the above, you hopefully aren't bypassing anything.
-Also, validate that the signal level from your preamp is safe for 707.
-Finally, don't connect amp external speaker to 707 input unless you know what 
-you are doing (have the right L-pad/attenuator).
-Use guidance from GT models.
-
-* Sh+Input >>> Return
-	* POS 4 or whichever track is the preamp or part of chain you want external
-		* Changing Return POS conveniently also changes Send POS
-		* You will not need to change that track's Audio Insert
-		* Returned audio is not sent through clip's MFX, but does do filter, pan
-	* Level 255
-	* Set Mono for 4 CM, Stereo for 7 CM
-
+See write up [here](PhysicalAmpCab.md)
 
 ## Tracks
 Chain the tracks, with only the final track's output in MIX OUT.
@@ -132,7 +109,8 @@ candidate for a Looper.
 * Sh+SEL for Track 2
 	* Tone
 	* Sound Source Clip
-	* Audio Insert EXT L (unless stereo, then EXT L/R)
+	* Audio Insert EXT L
+		* If stereo, then EXT L/R
 		* If you used Return, then RET L for mono and RET L/R for stereo
 	* Audio Output Assign (TODO there may be a better way, but it shouldn't be MIX OUT)
 
@@ -167,11 +145,16 @@ candidate for a Looper.
 
 ## Playing
 Create scenes of clips for presets.
-Example: Hendrix is tremolo chorus into phaser 1 and plexi.
-Press play for Scatter to work. TODO interesting scatters.
+Example: one type of Hendrix could be tremolo chorus into phaser 1 and plexi.
+
+Press play for Scatter to work.
+TODO interesting scatters.
 
 ### Groups/Themes of FX per Track
-Filter, Dirt, Preamp (without speakers/cab sim), Modulation, Output 
+Reference for [Roland view of categories](https://static.roland.com/manuals/SPD-SX_PRO_reference_v102/eng/30557213.html).
+A [basic flow of guitar pedal chain](https://rolandcorp.com.au/blog/wp-content/uploads/elementor/thumbs/effects_chain-op5h7sbk8o9o0jmqhetslzqi7csgw6ascnpa8lczmg.png) with [write-up](https://rolandcorp.com.au/blog/order-effects-chain-simple-guide), ignoring how much of a personal preference this is.
+
+Filter, Dirt, Preamp (without speakers/cab sim), Modulation/Pitch, Output 
 (lofi/phono/tele, speakers/cab sim).
 
 ### Mapping of Clips to FX

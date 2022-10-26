@@ -1,0 +1,12 @@
+ignore/
+env/
+**/.dockerignore
+.python-version
+*.egg-info
+__pycache__
+.env
+docker-compose.override.yml
+data
+*.sw[op]
+*.save
+*tmp*
