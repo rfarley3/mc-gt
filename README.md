@@ -146,16 +146,26 @@ candidate for a Looper.
 ## Playing
 Create scenes of clips for presets.
 Example: one type of Hendrix could be tremolo chorus into phaser 1 and plexi.
+Alternatively, activate an entire empty row, then copy and paste any clip from 
+any track (2-7) into that row in the order you want (in tracks 2-7).
 
-Press play for Scatter to work.
+Press play for Scatter to work, but be sure to set the BPM (Sh+Tempo).
 TODO interesting scatters.
 
 ### Groups/Themes of FX per Track
 Reference for [Roland view of categories](https://static.roland.com/manuals/SPD-SX_PRO_reference_v102/eng/30557213.html).
 A [basic flow of guitar pedal chain](https://rolandcorp.com.au/blog/wp-content/uploads/elementor/thumbs/effects_chain-op5h7sbk8o9o0jmqhetslzqi7csgw6ascnpa8lczmg.png) with [write-up](https://rolandcorp.com.au/blog/order-effects-chain-simple-guide), ignoring how much of a personal preference this is.
 
-Filter, Dirt, Preamp (without speakers/cab sim), Modulation/Pitch, Output 
-(lofi/phono/tele, speakers/cab sim).
+For this project:
+Track 1: Drums
+Track 2: Dynamics (Compressor)
+Track 3: Filter (Wah) and some Modulation/Pitch
+Track 4: Dirt (Tone producers)
+Track 5: Preamp (without speakers/cab sim)
+Track 6: Modulation/Pitch (Tone modifiers)
+Track 7: Ambience/Output (lofi/phono/tele, trem, pan, some delay, speakers/cab 
+sim).
+Track 8: Looper (record source track 7)
+Master Delay and Reverb are on, Track 7 clips' knobs control send-to.
 
-### Mapping of Clips to FX
-TODO.
+A mapping of which MFX is at which clip is [here](ClipMap.md).
