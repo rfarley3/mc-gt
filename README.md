@@ -12,6 +12,7 @@ Uberschall high gain).
 707 lacks variety of pedals, such as no subtypes for Overdrive, Distortion, 
 Fuzz. Also lacks harmonist, spring reverb, and some more guitar centric effects.
 
+Download [here](https://drive.google.com/file/d/1mEYfxMzKl6clu3RVLRFRe4MgGoXVuBfW/view?usp=sharing) v0 md5 6a14979d9c5432f797797a2da064b36b.
 
 ## Wiring
 There are a few ways to connect things up.
