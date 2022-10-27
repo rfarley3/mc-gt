@@ -158,15 +158,17 @@ Reference for [Roland view of categories](https://static.roland.com/manuals/SPD-
 A [basic flow of guitar pedal chain](https://rolandcorp.com.au/blog/wp-content/uploads/elementor/thumbs/effects_chain-op5h7sbk8o9o0jmqhetslzqi7csgw6ascnpa8lczmg.png) with [write-up](https://rolandcorp.com.au/blog/order-effects-chain-simple-guide), ignoring how much of a personal preference this is.
 
 For this project:
-Track 1: Drums
-Track 2: Dynamics (Compressor)
-Track 3: Filter (Wah) and some Modulation/Pitch
-Track 4: Dirt (Tone producers)
-Track 5: Preamp (without speakers/cab sim)
-Track 6: Modulation/Pitch (Tone modifiers)
-Track 7: Ambience/Output (lofi/phono/tele, trem, pan, some delay, speakers/cab 
+* Track 1: Drums
+* Track 2: Dynamics (Compressor)
+* Track 3: Filter (Wah) and some Modulation/Pitch
+* Track 4: Dirt (Tone producers)
+* Track 5: Preamp (without speakers/cab sim)
+* Track 6: Modulation/Pitch (Tone modifiers)
+* Track 7: Ambience/Output (lofi/phono/tele, trem, pan, some delay, speakers/cab 
 sim).
-Track 8: Looper (record source track 7)
-Master Delay and Reverb are on, Track 7 clips' knobs control send-to.
+* Track 8: Looper (record source track 7)
+* Master Delay and Reverb are on, Track 7 clips' knobs control send-to
+* No scatter changes, but could provide instant on/off for one or two parallel 
+MFX per pad
 
 A mapping of which MFX is at which clip is [here](ClipMap.md).
