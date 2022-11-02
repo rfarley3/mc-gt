@@ -62,6 +62,8 @@ the guitar on RET L.
 
 Send-return POS is separate from Audio Insert.
 Returned audio is not sent through clip's MFX, but will go through filter, pan.
+Instead, you can use MFX if you use Audio Insert, but you'll need to set RETURN 
+POS Off, this assumes you want that.
 TODO verify if return requires line-in. It can not handle microphone. Unknown if 
 707 return is designed for high-z input (Guitar). Assume RET must be line-in.
 
@@ -70,6 +72,7 @@ For mono:
 * Sh+Input
 	* RETURN Stereo, Level 255, POS Off
 	* REC SRC 7 or whichever you'll want to loop, like the final output track
+	* See Initial Track for how to do the Audio Insert
 
 For stereo:
 * Use a TRS to 2 x TS adapter
@@ -78,6 +81,7 @@ For stereo:
 * Sh+Input
 	* RETURN Stereo, Level 255, POS Off
 	* REC SRC 7 or whichever you'll want to loop, like the final output track
+	* See Initial Track for how to do the Audio Insert
 
 
 ### Using a Physical Amp or External Pedals
@@ -151,6 +155,7 @@ Alternatively, activate an entire empty row, then copy and paste any clip from
 any track (2-7) into that row in the order you want (in tracks 2-7).
 
 Press play for Scatter to work, but be sure to set the BPM (Sh+Tempo).
+Manual p. 39 scatter can have a separate own insert (EXT, PC, Track, MIX OUT).
 TODO interesting scatters.
 
 ### Groups/Themes of FX per Track
@@ -168,6 +173,8 @@ For this project:
 sim).
 * Track 8: Looper (record source track 7)
 * Master Delay and Reverb are on, Track 7 clips' knobs control send-to
+* No Multi FX changes, but changing Speaker Sim could free up Track 7
+	* Note that Multi FX comes after delay/reverb, so you may lose reverb tone
 * No scatter changes, but could provide instant on/off for one or two parallel 
 MFX per pad
 
