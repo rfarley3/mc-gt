@@ -63,7 +63,7 @@ Juno60, MKS-50 (rack mount Alpha Juno)
 * TB-303 bass line: TB, TB-303, TB303
 * D-50: D-50, D50
 * RD-1000 digital piano: RD-1000
-* MC micro composer: MC-500, MC-202, 202
+* MC micro composer: MC500, MC202, 202
 * GR guitar synthesizer: GR-300, GR-500, GR-700
 * AX keytar: AX
 * VP-330 vocoder and synth: VP330
