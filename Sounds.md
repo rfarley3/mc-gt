@@ -16,7 +16,7 @@ Wave.
 * Drum Kits are for Drum tracks, and are pre-grouped Drum Instruments
 	* There is a mapping of pads to instruments in the PDF
 		* Usually bottom from left is kick, snare, 3x toms, 3x others; top is rim, 
-		clap/snap, closed high hat, open hh, 2x cymbals, shaker/tamb, 
+		clap, closed high hat, open hh, 2x cymbals, tambourine/maracas, 
 		cowbell/style-specific thing
 	* Most of the kits are mixed, so a 909 will have some 727, 707, etc.
 	* You can change a kit in your project (Sh+pad, Enter, Inst Select) without 
