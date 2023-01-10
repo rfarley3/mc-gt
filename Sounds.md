@@ -45,13 +45,20 @@ implied. This list shows the specific device (or its family, ex: Juno) and then
 lists its various substrings within presets.
 There appear to be about 40 Roland devices and 5 non-Roland.
 
-Some prefixes indicate groups/banks, such as SL for Synth Lead and Syn for 
-Synth. The presets don't always start with these, and sometimes they aren't 
+The presets don't always start with their device name, and sometimes they aren't 
 surrounded by spaces (ex: ClassicJPpad, SL-Jn60sub1). Any case variants are 
-included here. TODO explain the trailing `w`, `comp`, `w cmp`.
+included here.
 
-You can use it as a reference to decode the preset name while scrolling, or to 
-search the presets to find all the sounds for a particular device.
+Some prefixes indicate groups, such as SL for Synth Legends. Some of the presets 
+have trailing MFX indicators, such as `w` for wide stereo (SDD-320, but 
+sometimes CE-1), `comp` (compression via Equalizer), `w comp` or `w cmp` 
+(SDD-320, not sure how the compression is done).
+There are others like Lim (limiter), Atk, Bit (Bit Crusher), Dly, Rtry (Rotary), 
+Trem, Cho, etc.
+
+You can use this list as a reference to decode the preset name while scrolling, 
+or to search the presets to find all the sounds for a particular device. Not all 
+of these are in all sections (tone vs drum vs partial).
 
 * Jupiter: Jupiter, JP, JP-4, JP6, JP8, JP-8, JP8000, JP80, JX-8P, JX, MKS-80 
 (rack mount JP-8), XV, 5080 (rack mount XV-5080), JV, 1080 (rack mount JV-1080)
@@ -76,6 +83,7 @@ Juno60, MKS-50 (rack mount Alpha Juno)
 * Rhodes: MK-80
 * Unknown
 	* D-2000 (RD-2000?)
+	* Compu (CR-78?)
 
 
 ## There are also named and inferred devices in MFX
