@@ -72,7 +72,8 @@ Vendor from 707 to Computer (p. 121):
 
 
 ## Linux
-* Must use Generic driver
+* Must use Generic driver (although I have seen a post saying Jack can support 
+		Vendor driver, but I haven't confirmed)
 	* lsusb shows as MC707 USBAudio
 * I had luck with Alsa stereo hw1:0
 	* Audacity and Helm worked, Ardour needs more time to figure it out

@@ -53,8 +53,8 @@ Some prefixes indicate groups, such as SL for Synth Legends. Some of the presets
 have trailing MFX indicators, such as `w` for wide stereo (SDD-320, but 
 sometimes CE-1), `comp` (compression via Equalizer), `w comp` or `w cmp` 
 (SDD-320, not sure how the compression is done).
-There are others like Lim (limiter), Atk, Bit (Bit Crusher), Dly, Rtry (Rotary), 
-Trem, Cho, etc.
+There are others like `Lim` (limiter), `Atk`, `Bit` (Bit Crusher), `Dly`, `Rtry` 
+(Rotary), `Trem` (tremolo), `Cho` (chorus), etc.
 
 You can use this list as a reference to decode the preset name while scrolling, 
 or to search the presets to find all the sounds for a particular device. Not all 

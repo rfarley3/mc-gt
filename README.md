@@ -14,6 +14,15 @@ Fuzz. Also lacks harmonist, spring reverb, and some more guitar centric effects.
 
 Download [here](https://drive.google.com/file/d/1mEYfxMzKl6clu3RVLRFRe4MgGoXVuBfW/view?usp=sharing) v0 md5 6a14979d9c5432f797797a2da064b36b.
 
+## Other Docs in this Repo
+* [List of which fx are in which track-clip in the GT project file](ClipMap.md)
+* [How to use a physical preamp aka four cable method or 4 CM](PhysicalAmpCab.md)
+* [Some recommended settings, mostly per Unit:E tutorials](SaneSettings.md)
+* [Common shortcut key combos](Shortcuts.md)
+* [What the preset names mean, what instruments they are](Sounds.md)
+* [Some notes on hooking up audio/midi to Linux and Mac](USB.md)
+* [What MIDI controls are available, and how to maximize them](MIDI-Ctrl.md)
+
 ## Wiring
 There are a few ways to connect things up.
 You probably just want to do Raw/Direct from Guitar.
@@ -52,6 +61,7 @@ Plug XLR into TRS adapter into EXT IN L/MONO and set switch to MIC.
 	* EXT IN Mono
 	* Turn large encoder down, set EXT IN VOLUME 0
 	* REC SRC 7 or whichever you'll want to loop, like the final output track
+	* See Initial Track for how to do the Audio Insert
 
 
 ### Using Return instead of EXT
